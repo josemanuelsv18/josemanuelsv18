@@ -2,41 +2,40 @@
 {
     font-family: Arial, Helvetica, sans-serif;
 }
-#header
+body {
+    margin: 0;
+    background-color: #EEEEEE;
+}
+header h1
 {
-    background-color: #1065C7;
-    color: white;
-    padding-left: 30px;
+    background-color: #d65a31;
+    color: #EEEEEE;
+    padding: 10px 0px 10px 30px;
     margin-bottom: 0;
+}
+#menu {
+    background-color: #222831;
 }
 #menu ul
 {
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
-    width: 100%;
-    background-color: #1381FB;
 }
 #menu ul li
 {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 0;
+    width: 19.65%;
 }
-#menu li a
+#menu ul li a
 {
     text-decoration: none;
-    color: white;
-    padding-left: 65px;
-    padding-right: 65px;
-    font-weight: bold;
-    margin-top: 0;
+    display: block;
+    color: #EEEEEE;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
 }
-#menu li a:hover
-{
-    background-color: #5FA8FB;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#menu li a:hover {
+    color: #222831;
+    background-color: #EEEEEE;
 }
