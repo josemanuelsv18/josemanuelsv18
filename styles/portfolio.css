@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(#179CB8, #0E314E);
+  color: white;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  color: #A8B6B4;
+}
+
+.header {
+  height: 50%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10px 45px 225px auto;
+  grid-template-rows: 10px 45px 160px 100px;
+}
+.header .header__homeButton {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(14, 49, 78, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 50%;
+  margin: 5px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: center;
+}
+.header .header__homeButton a {
+  color: #A8B6B4;
+  text-decoration: none;
+}
+.header .header__homeButton img {
+  width: 30px;
+}
+.header .header__info {
+  grid-row: 4;
+  grid-column: 2/4;
+  justify-self: self-start;
+  align-self: center;
+  margin-top: 10px;
+}
+.header .header__info ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.header .header__info ul a {
+  color: #0E314E;
+}
+.header h1 {
+  font-family: "Ubuntu", sans-serif;
+  grid-row: 3;
+  grid-column: 4;
+  justify-self: flex-start;
+  align-self: flex-end;
+  margin-left: 18%;
+}
+.header .header__profile {
+  padding-bottom: 0px;
+  padding-left: 0;
+  grid-area: 3/3/4/4;
+  justify-self: stretch;
+  align-self: center;
+}
+.header .header__profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main__folder {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.main .main__folder button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  margin: 20px 0px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+}
+.main .main__folder ul {
+  padding-left: 0;
+  margin: 0px;
+}
+.main .main__folder ul li {
+  display: none;
+}
+.main .main__folder:hover ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 0px;
+}
+.main .main__folder:hover ul li {
+  background-color: rgba(14, 49, 78, 0.3);
+  border: solid 1px #A8B6B4;
+  display: inline-block;
+  margin: 4px;
+  padding: 2px 25px;
+  border-radius: 25px;
+}
+.main .main__folder:hover ul li a {
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer .footer__list {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer__list .footer__list--element {
+  padding: 15px 0px;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
