@@ -75,7 +75,7 @@ ul a {
   width: 150px;
   height: 150px;
   border: solid 2px #0E314E;
-  border-radius: 25px;
+  border-radius: 50%;
 }
 
 .main {
