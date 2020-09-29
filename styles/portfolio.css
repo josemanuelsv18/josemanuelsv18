@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(#179CB8, #0E314E);
-  color: white;
+  background: #2C2C2C;
+  color: #FAFAFA;
   font-family: "Nunito", sans-serif;
   margin: 0;
 }
@@ -10,7 +10,7 @@ ul {
 }
 ul a {
   text-decoration: none;
-  color: #A8B6B4;
+  color: #313131;
 }
 
 .header {
@@ -23,7 +23,7 @@ ul a {
 .header .header__homeButton {
   height: 40px;
   width: 40px;
-  background-color: rgba(14, 49, 78, 0.4);
+  background-color: #74787B;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -35,7 +35,7 @@ ul a {
   align-self: center;
 }
 .header .header__homeButton a {
-  color: #A8B6B4;
+  color: #313131;
   text-decoration: none;
 }
 .header .header__homeButton img {
@@ -54,7 +54,10 @@ ul a {
   text-align: center;
 }
 .header .header__info ul a {
-  color: #0E314E;
+  color: #3AB5FE;
+}
+.header .header__info ul a:hover {
+  text-decoration: underline;
 }
 .header h1 {
   font-family: "Ubuntu", sans-serif;
@@ -62,7 +65,7 @@ ul a {
   grid-column: 4;
   justify-self: flex-start;
   align-self: flex-end;
-  margin-left: 18%;
+  margin-left: 14%;
 }
 .header .header__profile {
   padding-bottom: 0px;
@@ -74,8 +77,9 @@ ul a {
 .header .header__profile img {
   width: 150px;
   height: 150px;
-  border: solid 2px #0E314E;
+  border: solid 2px #3AB5FE;
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .main {
@@ -89,8 +93,7 @@ ul a {
   flex-direction: column;
 }
 .main .main__folder button {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #FFFFFF;
+  color: #FAFAFA;
   margin: 20px 0px;
   border-radius: 25px;
   border: none;
@@ -105,28 +108,40 @@ ul a {
 .main .main__folder ul li {
   display: none;
 }
+.main .main__folder--button-1 {
+  background-color: rgba(255, 182, 51, 0.95);
+}
+.main .main__folder--button-2 {
+  background-color: rgba(47, 216, 72, 0.8);
+}
+.main .main__folder--button-3 {
+  background-color: rgba(211, 93, 227, 0.95);
+}
+.main .main__folder--button-4 {
+  background-color: #3AB5FE;
+}
 .main .main__folder:hover ul {
   display: flex;
   align-items: center;
   flex-direction: column;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #313131;
   padding: 10px 0px;
 }
 .main .main__folder:hover ul li {
-  background-color: rgba(14, 49, 78, 0.3);
-  border: solid 1px #A8B6B4;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 1px #313131;
   display: inline-block;
   margin: 4px;
   padding: 2px 25px;
   border-radius: 25px;
 }
 .main .main__folder:hover ul li a {
-  color: #FFFFFF;
+  color: #FAFAFA;
 }
 
 .footer {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #313131;
 }
 .footer .footer__list {
   margin-bottom: 0px;
@@ -135,6 +150,12 @@ ul a {
 }
 .footer .footer__list .footer__list--element {
   padding: 15px 0px;
+}
+.footer .footer__list .footer__list--element a {
+  color: #74787B;
+}
+.footer .footer__list .footer__list--element a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=portfolio.css.map */
