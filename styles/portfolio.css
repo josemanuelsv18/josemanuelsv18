@@ -74,7 +74,8 @@ ul a {
 .header .header__profile img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border: solid 2px #0E314E;
+  border-radius: 25px;
 }
 
 .main {
