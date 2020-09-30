@@ -99,6 +99,7 @@ ul{
     flex-direction: column;
     align-items: center;
     background-color: $lightJet;
+    padding-bottom: 10px;
     .main__folder{
         width: 50%;
         display: flex;
@@ -150,6 +151,8 @@ ul{
         margin-bottom: 0px;
         display: flex;
         justify-content: space-around;
+        margin-top: 0;
+        border-top: solid 2px $sonicSilver;
         .footer__list--element{
             padding: 15px 0px;
             a{

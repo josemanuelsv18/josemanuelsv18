@@ -87,6 +87,7 @@ ul a {
   flex-direction: column;
   align-items: center;
   background-color: #313131;
+  padding-bottom: 10px;
 }
 .main .main__folder {
   width: 50%;
@@ -137,6 +138,8 @@ ul a {
   margin-bottom: 0px;
   display: flex;
   justify-content: space-around;
+  margin-top: 0;
+  border-top: solid 2px #74787B;
 }
 .footer .footer__list .footer__list--element {
   padding: 15px 0px;
