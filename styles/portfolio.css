@@ -65,7 +65,7 @@ ul a {
   grid-column: 4;
   justify-self: flex-start;
   align-self: flex-end;
-  margin-left: 14%;
+  margin-left: 28%;
 }
 .header .header__profile {
   padding-bottom: 0px;
@@ -77,7 +77,7 @@ ul a {
 .header .header__profile img {
   width: 150px;
   height: 150px;
-  border: solid 2px #3AB5FE;
+  border: solid 2px #74787B;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -86,6 +86,8 @@ ul a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #313131;
+  padding-bottom: 10px;
 }
 .main .main__folder {
   width: 50%;
@@ -100,6 +102,7 @@ ul a {
   cursor: pointer;
   font-size: 16px;
   height: 50px;
+  font-weight: bold;
 }
 .main .main__folder ul {
   padding-left: 0;
@@ -125,10 +128,13 @@ ul a {
   align-items: center;
   flex-direction: column;
   border-radius: 25px;
-  background-color: #313131;
+  background-color: #2C2C2C;
   padding: 10px 0px;
 }
-.main .main__folder:hover ul li {
+.main .main__folder:hover ul a {
+  color: #FAFAFA;
+}
+.main .main__folder:hover ul a li {
   background-color: rgba(255, 255, 255, 0.1);
   border: solid 1px #313131;
   display: inline-block;
@@ -136,14 +142,13 @@ ul a {
   padding: 2px 25px;
   border-radius: 25px;
 }
-.main .main__folder:hover ul li a {
-  color: #FAFAFA;
-}
 
 .footer {
   background-color: #313131;
+  border-top: solid 2px #74787B;
 }
 .footer .footer__list {
+  margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
   justify-content: space-around;
