@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Professional web page cv & portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemanuelsv18/josemanuelsv18.github.io"
+  },
+  "keywords": [
+    "Portfolio",
+    "Web",
+    "Desing",
+    "Web",
+    "Developer",
+    "Software",
+    "CV"
+  ],
+  "author": "Josemanuel Sifontes Viloria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemanuelsv18/josemanuelsv18/issues"
+  },
+  "homepage": "https://github.com/josemanuelsv18/josemanuelsv18#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
